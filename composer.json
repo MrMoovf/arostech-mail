@@ -4,8 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Arostech\\Mail\\": "src/Mail/",
-            "Arostech\\Mail\\ServiceProvider\\":"src/Mail/ServiceProvider/"
+            "Arostech\\Mail\\": "src/Mail/"
         }
     },
     "authors": [
