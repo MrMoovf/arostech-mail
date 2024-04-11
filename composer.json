@@ -5,7 +5,7 @@
     "autoload": {
         "psr-4": {
             "Arostech\\Mail\\": "src/Mail",
-            "Arostech\\Mail\\ServiceProvider":"src/"
+            "Arostech\\Mail\\ServiceProvider\\":"src/"
         }
     },
     "authors": [
@@ -13,6 +13,7 @@
             "name": "Anders K"
         }
     ],
+    "license": "proprietary",
     "minimum-stability": "dev",
     "require": {}
 }
