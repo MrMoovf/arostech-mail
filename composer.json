@@ -1,0 +1,18 @@
+{
+    "name": "arostech/mail",
+    "description": "All mail for the Aros Tech CMS",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Arostech\\Mail\\": "src/Mail",
+            "Arostech\\Mail\\ServiceProvider":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anders K"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
