@@ -5,7 +5,7 @@
     "autoload": {
         "psr-4": {
             "Arostech\\Mail\\": "src/Mail",
-            "Arostech\\Mail\\ServiceProvider\\":"src/"
+            "Arostech\\Mail\\ServiceProvider\\":"src/Mail/ServiceProvider"
         }
     },
     "authors": [

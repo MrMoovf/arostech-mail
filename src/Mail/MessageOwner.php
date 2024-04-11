@@ -50,7 +50,7 @@ class MessageOwner extends Mailable
     public function content(): Content
     {
         return new Content(
-            markdown: 'emails.message.owner',
+            markdown: 'arostech::message.owner',
         );
     }
 
