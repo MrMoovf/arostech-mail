@@ -50,7 +50,7 @@ class MessageCustomer extends Mailable
     public function content(): Content
     {
         return new Content(
-            markdown: 'emails.message.customer',
+            markdown: 'arostech::message.customer',
         );
     }
 
