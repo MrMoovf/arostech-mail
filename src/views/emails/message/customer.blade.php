@@ -3,8 +3,10 @@
 
 ## We have got your message! 
 
+Should be here:
 {{config('arostech-mail.app_name')}}
 {{config('app_name')}}
+
 
 ### Email
 {{$email}}
