@@ -5,7 +5,7 @@
 
 Should be here:
 {{config('arostech-mail.app_name')}}
-{{config('app_name')}}
+{{config('app.name')}}
 
 
 ### Email WHAT
