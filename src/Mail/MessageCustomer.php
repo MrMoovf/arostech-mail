@@ -27,8 +27,6 @@ class MessageCustomer extends Mailable
         $this->email = $email;
         $this->name = $name;
         $this->msg = $msg;
-        $this->app_url = config('app.url');
-        //
     }
 
     /**

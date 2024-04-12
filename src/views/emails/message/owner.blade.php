@@ -1,16 +1,13 @@
 <x-mail::message>
-# Bleep bloop, this is an automatic message from your website GR888.dk
+# Bleep bloop, this is an automatic message from your website: {{config('arostech-mail.app_url')}}
 
-## Email okay owner, hvad fuck så lige 
-
+## Email
 {{$email}}
 
 ## Name 
-
 {{$name}}
 
 ## Message
-
 {{$msg}}
 
 <x-mail::button :url="'https://arostech.dk'">

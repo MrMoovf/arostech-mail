@@ -17,7 +17,6 @@ class MessageOwner extends Mailable
     public $email = '';
     public $msg = '';
     public $name = '';
-    
 
 
     /**
