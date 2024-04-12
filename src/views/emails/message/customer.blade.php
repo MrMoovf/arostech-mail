@@ -1,7 +1,12 @@
+@php
+    $app_url = env('APP_URL');
+    $app_name = env('APP_NAME');
+    $app_owner_name = env('APP_OWNER_NAME');
+@endphp
 <x-mail::message>
 # Bleep bloop, this is an automatic verification from  https://GR888.dk
 
-## We have got your message!
+## We have got your message! {{$app_url}}
 
 ### Email
 {{$email}}

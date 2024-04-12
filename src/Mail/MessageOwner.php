@@ -17,9 +17,7 @@ class MessageOwner extends Mailable
     public $email = '';
     public $msg = '';
     public $name = '';
-    public $app_url = env('APP_URL');
-    public $app_name = env('APP_NAME');
-    public $app_owner_name = env('APP_OWNER_NAME');
+
 
     /**
      * Create a new message instance.
