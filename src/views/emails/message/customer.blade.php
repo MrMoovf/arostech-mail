@@ -6,7 +6,7 @@
 <x-mail::message>
 # Bleep bloop, this is an automatic verification from  https://GR888.dk
 
-## We have got your message! {{$app_url ? 'im here' : 'not here:/'}}
+## We have got your message! {{config('arostech-mail.app_name')}}
 
 ### Email
 {{$email}}
