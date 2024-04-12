@@ -1,7 +1,7 @@
 <x-mail::message>
 # Bleep bloop, this is an automatic message from your website GR888.dk
 
-## Email
+## Email okay owner, hvad fuck så lige 
 
 {{$email}}
 
