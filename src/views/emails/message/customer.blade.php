@@ -12,7 +12,7 @@
 ### Message
 {{$msg}}
 
-<x-mail::button :url="'{{config('arostech-mail.app_url')}}'">
+<x-mail::button :url="'{{$app_url}}'">
 Go to GR888
 </x-mail::button>
 

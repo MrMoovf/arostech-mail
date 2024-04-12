@@ -17,6 +17,7 @@ class MessageCustomer extends Mailable
     public $email = '';
     public $msg = '';
     public $name = '';
+    public $app_url = config('app.url');
 
     /**
      * Create a new message instance.
