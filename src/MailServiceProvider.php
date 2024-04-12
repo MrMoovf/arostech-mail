@@ -1,6 +1,6 @@
 <?php
 
-namespace Arostech\Mail;
+namespace Arostech\ServiceProviders;
 
 use Illuminate\Support\ServiceProvider;
 
