@@ -35,10 +35,10 @@ class MessageOwner extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address('noreply@arostech.dk','Bjørn Guldager'),
-            subject: 'Thank you for your interest | GR888.dk',
+            from: new Address('noreply@arostech.dk','Anders from Aros Tech'),
+            subject: 'You have a new message |  Aros Tech CMS',
             replyTo: [
-                new Address(env('MAIL_OWNERS_EMAIL'),'Bjørn Guldager')
+                new Address('anders@arostech.dk','Anders Kozuch')
             ],
             
         );
