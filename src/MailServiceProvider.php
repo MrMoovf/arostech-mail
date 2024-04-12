@@ -11,8 +11,6 @@ class MailServiceProvider extends ServiceProvider {
      */
     public function boot(): void
     {
-        // bro what
-        echo 'hi there';
         $this->loadViewsFrom(__DIR__.'/views/emails', 'arostech');
     }
 }
