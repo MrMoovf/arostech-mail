@@ -8,7 +8,7 @@ Should be here:
 {{config('app_name')}}
 
 
-### Email
+### Email WHAT
 {{$email}}
 
 ### Name 
