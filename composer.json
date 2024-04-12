@@ -4,7 +4,9 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Arostech\\Mail\\": "src/Mail/"
+            "Arostech\\Mail\\": "src/Mail/",
+            "Arostech\\ServiceProviders\\": "src/"
+
         }
     },
     "authors": [
@@ -18,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Arostech\\Mail\\MailServiceProvider"
+                "Arostech\\ServiceProviders\\MailServiceProvider"
             ]
             
         }
