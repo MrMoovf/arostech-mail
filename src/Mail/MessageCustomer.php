@@ -17,7 +17,7 @@ class MessageCustomer extends Mailable
     public $email = '';
     public $msg = '';
     public $name = '';
-    public $app_url = config('app.url');
+    public $app_url = '';
 
     /**
      * Create a new message instance.
@@ -27,6 +27,7 @@ class MessageCustomer extends Mailable
         $this->email = $email;
         $this->name = $name;
         $this->msg = $msg;
+        $this->app_url = config('app.url');
         //
     }
 
