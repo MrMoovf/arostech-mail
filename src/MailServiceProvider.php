@@ -15,7 +15,7 @@ class MailServiceProvider extends ServiceProvider {
 
 
         $this->publishes([
-            __DIR__.'config/arostech-mail.php' => config_path('arostech-mail.php'),
+            __DIR__.'/config/arostech-mail.php' => config_path('arostech-mail.php'),
         ]);
     }
 }
