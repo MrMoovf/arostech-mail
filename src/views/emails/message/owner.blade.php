@@ -1,5 +1,5 @@
 <x-mail::message>
-# Bleep bloop, this is an automatic message from your website: {{config('arostech-mail.app_url')}}
+# Bleep bloop, this is an automatic message from your website: {{config('arostech-mail.app_url')}} 
 
 ## Email
 {{$email}}
