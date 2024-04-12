@@ -4,7 +4,7 @@
 ## We have got your message! 
 
 Should be here:
-{{config('arostech-mail.app_name')}}
+{{config('arostech-mail.test')}}
 {{config('app.name')}}
 
 
