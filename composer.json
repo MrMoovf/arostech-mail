@@ -14,5 +14,13 @@
     ],
     "license": "proprietary",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arostech\\Mail\\MailServiceProvider"
+            ]
+            
+        }
+    }
 }
