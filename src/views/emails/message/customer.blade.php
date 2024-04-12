@@ -1,14 +1,9 @@
 <x-mail::message>
-# Bleep bloop, this is an automatic verification from  https://GR888.dk
+# Bleep bloop, this is an automatic verification response from  {{config('arostech-mail.app_name')}}
 
 ## We have got your message! 
 
-Should be here:
-{{config('arostech-mail.test')}}
-{{config('app.name')}}
-
-
-### Email WHAT
+### Email 
 {{$email}}
 
 ### Name 
@@ -17,11 +12,11 @@ Should be here:
 ### Message
 {{$msg}}
 
-<x-mail::button :url="'https://gr888.dk'">
-Read more
+<x-mail::button :url="'{{config('arostech-mail.app_url')}}'">
+Go to GR888
 </x-mail::button>
 
 ### Thanks,<br>
-Bjørn Guldager<br>
-CEO of GR888
+{{config('arostech-mail.app_owner_name')}}<br>
+{{config('arostech-mail.app_name')}}
 </x-mail::message>
