@@ -38,7 +38,7 @@ class MessageOwner extends Mailable
             from: new Address('noreply@arostech.dk','Bjørn Guldager'),
             subject: 'Thank you for your interest | GR888.dk',
             replyTo: [
-                new Address(env('MAIL_OWNER_EMAIL'),'Bjørn Guldager')
+                new Address(env('MAIL_OWNERS_EMAIL'),'Bjørn Guldager')
             ],
             
         );
