@@ -6,6 +6,12 @@ use Illuminate\Support\ServiceProvider;
 
 class MailServiceProvider extends ServiceProvider {
     
+
+    public function register()
+    {
+       $this->mergeConfigFrom(__DIR__.'/config/arostech-mail.php', 'arostech-mail');
+    }
+
     /**
      * Bootstrap any package services.
      */
